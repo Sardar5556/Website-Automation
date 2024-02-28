@@ -16,7 +16,7 @@ describe('Visit and Click on First Product', () => {
         cy.contains('Book now').click();
     
         cy.wait(2000);
-        cy.get(':nth-child(1) > .p-2').type('Sardar');
+        cy.get(':nth-child(1) > .p-2').type('Abdul Rehman');
         cy.get(':nth-child(2) > .p-2').type('sardar123@gmail.com');
         cy.get('.PhoneInputCountrySelect').select('Pakistan');
         cy.get('.PhoneInputInput').type('3335566333');
