@@ -2,8 +2,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
 });
 
-describe('Visit and Click on First Product', () => {
-    it('should visit the website, find the first product, and click', () => {
+describe('Visit and Click on the Product', () => {
+    it('should visit the website, find the product, and click', () => {
         cy.viewport(1920, 1080);
         cy.visit('https://www.tripshepherd.com/');
 
